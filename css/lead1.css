@@ -1,0 +1,18 @@
+
+html,body{
+    background-size: 100px;
+}
+.box{
+    width:7.5rem;
+    height:13.34rem;
+    background-image: url("../img/lead/lead1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box div{
+    width: 0.88rem;
+    height: 0.88rem;
+   padding-left: 6.61rem;
+    padding-top: 6.21rem;
+}
+

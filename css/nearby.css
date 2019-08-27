@@ -1,0 +1,460 @@
+.top{
+    width: 7.5rem;
+    height: 1.29rem;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #8d3cde 46%,
+    #ec32a5 100%);
+    overflow: hidden;
+}
+.top ul{
+    display: flex;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+}
+.fanhui{
+    width: 0.25rem;
+    height: 0.25rem;
+}
+.top ul li:nth-of-type(1){
+    width: 0.25rem;
+    height: 0.40rem;
+    margin-left: 0.22rem;
+    margin-top: 0.7rem;
+}
+.top ul li:nth-of-type(1)img{
+    background-size: 100%;
+}
+.top ul li:last-of-type{
+    width: 0.35rem;
+    height: 0.4rem;
+    margin-left: 1.68rem;
+    margin-top: 0.63rem;
+}
+.top ul li:last-of-type img{
+    background-size: 100%;
+}
+.top ul li:nth-of-type(2){
+    font-size: 0.36rem;
+    line-height: 0.288rem;
+    color: #ffffff;
+    margin-left:1.69rem;
+    margin-top: 0.65rem;
+}
+.top ul li:nth-of-type(3){
+    font-size: 0.36rem;
+    line-height: 0.288rem;
+    color: #ec32a5;
+    margin-left: 1.71rem;
+    margin-top: 0.65rem;
+}
+/**/
+.nearby-center01{
+    width: 7.5rem;
+    height: 4.84rem;
+    background-image: linear-gradient(
+            #fcfcfc,
+            #fcfcfc),
+    linear-gradient(
+            #080d49,
+            #080d49);
+    background-blend-mode: normal,
+    normal;
+    /*border: 0.01rem black solid;*/
+
+}
+.nearby-center01 ul{
+    overflow: hidden;
+}
+.nearby-center01-ul li:nth-of-type(1){
+    float: left;
+    width: 0.77rem;
+    height: 0.77rem;
+    margin-left:0.31rem ;
+    margin-top: 0.16rem;
+}
+.nearby-center01-ul li:nth-of-type(1)img{
+    background-size: 100%;
+}
+.nearby-center01-ul li:nth-of-type(2){
+    float: left;
+
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.264rem;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-top: 0.38rem;
+    margin-left: 0.1rem;
+}
+.nearby-center01-ul li:nth-of-type(3){
+    float: right;
+    width: 0.64rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-right: 0.36rem;
+    margin-top: 0.04rem;
+}
+
+.nearby-center01-ul li:nth-of-type(4){
+    float: right;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.nearby-center01-ul li:nth-of-type(4)img{
+    background-size: 100%;
+}
+.nearby-center01-txt{
+    width: 5rem;
+    height: 0.28rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-top: 0.2rem;
+    margin-left: 0.34rem;
+}
+.nearby_box{
+    width: 7.5rem;
+    height: 1.72rem;
+    background-color: #f3f3f3;
+    margin-top: 0.48rem;
+    overflow: hidden;
+}
+.nearby-bg1{
+    width: 2.26rem;
+    height: 1.72rem;
+    background-image: url("../img/nearby/5@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 0.34rem;
+}
+
+.nearby-bg2{
+    width: 0.44rem;
+    height: 0.44rem;
+    padding-left: 1.7rem;
+    padding-top: 1.15rem;
+}
+.nearby-bg2 img{
+    background-size: 100%;
+}
+.nearby_box ul li:nth-of-type(1){
+    float: left;
+    margin-left:2.87rem;
+    margin-top: 0.2rem;
+ /*   width: 1.2rem;
+    height: 0.22rem;*/
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.312rem;
+    letter-spacing: 0rem;
+    color: #333333;
+}
+.nearby_box ul li:nth-of-type(2) {
+    float: right;
+    margin-top: 0.2rem;
+    margin-right: 3.55rem;
+    /*width: 1.09rem;
+    height: 0.22rem;*/
+    font-family: PingFang-SC-Medium;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.312rem;
+    letter-spacing: 0rem;
+    color: #666666;
+}
+#nearby-ul li{
+    width: 0.42rem;
+    height: 0.41rem;
+    float: left;
+}
+#nearby-ul li img{
+    background-size: 100%;
+}
+#nearby-ul {
+    margin-top: 0.54rem;
+}
+#nearby-ul ul{
+    display: flex;
+    justify-content: space-between;
+}
+#nearby-ul li:nth-of-type(1){
+    margin-left: 0.32rem;
+}
+#nearby-ul li:nth-of-type(4){
+    margin-right: 0.33rem;
+}
+#nearby-ul p:nth-of-type(1){
+    position: relative;
+    left: 1rem;
+    width: 0.13rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #666666;
+    top: -0.3rem;
+}
+#nearby-ul p:nth-of-type(2){
+    position: relative;
+    left: 3.17rem;
+    width: 0.13rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #666666;
+    top: -0.49rem;
+}
+.nearby-mask{
+    width: 7.5rem;
+    height: 0.16rem;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #8d3cde 46%,
+    #ec32a5 100%);
+}
+/*�ڶ����ֱ���ͼ*/
+.nearby-bga{
+    width: 2.26rem;
+    height: 1.72rem;
+    background-image: url("../img/nearby/12@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 0.34rem;
+}
+.nearby-center02{
+    width: 7.5rem;
+    height: 4.84rem;
+    background-image: linear-gradient(
+            #fcfcfc,
+            #fcfcfc),
+    linear-gradient(
+            #080d49,
+            #080d49);
+    background-blend-mode: normal,
+    normal;
+    /*border: 0.01rem black solid;*/
+    padding-bottom: 1rem;
+
+}
+.nearby-center02 ul{
+    overflow: hidden;
+}
+.nearby-center02-ul li:nth-of-type(1){
+    float: left;
+    width: 0.77rem;
+    height: 0.77rem;
+    margin-left:0.31rem ;
+    margin-top: 0.16rem;
+}
+.nearby-center02-ul li:nth-of-type(1)img{
+    background-size: 100%;
+}
+.nearby-center02-ul li:nth-of-type(2){
+    float: left;
+
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.264rem;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-top: 0.38rem;
+    margin-left: 0.1rem;
+}
+.nearby-center02-ul li:nth-of-type(3){
+    float: right;
+    width: 0.64rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-right: 0.36rem;
+    margin-top: 0.04rem;
+}
+
+.nearby-center02-ul li:nth-of-type(4){
+    float: right;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.nearby-center02-ul li:nth-of-type(4)img{
+    background-size: 100%;
+}
+.nearby-center02-txt{
+    width: 5rem;
+    height: 0.28rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-top: 0.2rem;
+    margin-left: 0.34rem;
+}
+.nearby_box{
+    width: 7.5rem;
+    height: 1.72rem;
+    background-color: #f3f3f3;
+    margin-top: 0.48rem;
+    overflow: hidden;
+}
+.nearby-bg1{
+    width: 2.26rem;
+    height: 1.72rem;
+    background-image: url("../img/nearby/5@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 0.34rem;
+}
+
+.nearby-bg2{
+    width: 0.44rem;
+    height: 0.44rem;
+    padding-left: 1.7rem;
+    padding-top: 1.15rem;
+}
+.nearby-bg2 img{
+    background-size: 100%;
+}
+.nearby_box ul li:nth-of-type(1){
+    float: left;
+    margin-left:2.87rem;
+    margin-top: 0.2rem;
+    /*   width: 1.2rem;
+       height: 0.22rem;*/
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.312rem;
+    letter-spacing: 0rem;
+    color: #333333;
+}
+.nearby_box ul li:nth-of-type(2) {
+    float: right;
+    margin-top: 0.2rem;
+    margin-right: 3.55rem;
+    /*width: 1.09rem;
+    height: 0.22rem;*/
+    font-family: PingFang-SC-Medium;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.312rem;
+    letter-spacing: 0rem;
+    color: #666666;
+}
+#nearby-ul li{
+    width: 0.42rem;
+    height: 0.41rem;
+    float: left;
+}
+#nearby-ul li img{
+    background-size: 100%;
+}
+#nearby-ul {
+    margin-top: 0.54rem;
+}
+#nearby-ul ul{
+    display: flex;
+    justify-content: space-between;
+}
+#nearby-ul li:nth-of-type(1){
+    margin-left: 0.32rem;
+}
+#nearby-ul li:nth-of-type(4){
+    margin-right: 0.33rem;
+}
+#nearby-ul p:nth-of-type(1){
+    position: relative;
+    left: 1rem;
+    width: 0.13rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #666666;
+    top: -0.3rem;
+}
+#nearby-ul p:nth-of-type(2){
+    position: relative;
+    left: 3.17rem;
+    width: 0.13rem;
+    height: 0.19rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #666666;
+    top: -0.49rem;
+}
+.nearby-mask{
+    width: 7.5rem;
+    height: 0.16rem;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #8d3cde 46%,
+    #ec32a5 100%);
+}
+.bofang{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.weizhi{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.dianzan{
+    width: 0.42rem;
+    height: 0.41rem;
+}
+.fenxiang{
+    width: 0.43rem;
+    height: 0.38rem;
+}
+.pinglun{
+    width: 0.45rem;
+    height: 0.41rem;
+}
+.more{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.touxiang{
+    width: 0.77rem;
+    height: 0.77rem;
+}

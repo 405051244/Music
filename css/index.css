@@ -1,0 +1,528 @@
+/*头部*/
+header {
+    width: 100%;
+    height: .6rem;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #526ee1 26%,
+    #8d3cde 52%,
+    #bd37c2 80%,
+    #ec32a5 100%);
+    overflow: hidden;
+    font-size: 0.18rem;
+}
+
+.hea li {
+    float: left;
+}
+
+.hea {
+    width: 100%;
+    position: relative;
+}
+
+.icon1 {
+    width: 0.175rem;
+    height: 0.16rem;
+    margin-left: .22rem;
+    margin-top: .23rem;
+}
+
+.icon2 {
+    width: 0.175rem;
+    height: 0.2rem;
+    margin-top: .2rem;
+    margin-left: .28rem;
+
+}
+
+
+.hea li .a {
+    margin-left: .1rem;
+    display: block;
+}
+
+.hea li {
+    text-align: center;
+}
+
+.hea li:nth-of-type(2) {
+    margin-top: .08rem;
+    margin-left: .3rem;
+}
+
+.hea li:nth-of-type(3) {
+    margin-top: .08rem;
+    margin-left: .3rem;
+}
+
+.hea li:nth-of-type(4 ) {
+    margin-top: .08rem;
+    margin-left: .28rem;
+}
+
+header sapn {
+    font-family: PingFang-SC-Medium;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #ffffff;
+    margin-bottom: .1rem;
+    line-height: 0.45rem;
+}
+
+.active {
+    color: #ec32a5;
+}
+
+header p {
+
+    width: 0.33rem;
+    height: 0.02rem;
+    margin-top: -.05rem;
+    background-color: #ec32a5;
+    display: none;
+
+}
+
+/*banner图轮播*/
+.ban img {
+    position: relative;
+    width: 100%;
+    height: 2.045rem;;
+
+}
+
+
+/*歌单*/
+.gedan {
+    width: 100%;
+}
+
+.g-list {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: .154rem;
+    font-size: .14rem;
+}
+
+.g-list li img {
+    width: 0.32rem;
+    height: .415rem;
+}
+
+.g-list li div {
+    width: .425rem;
+    height: .44rem;
+    background-color: rgba(22, 208, 255, 0.26);
+    border: dashed 0.008rem #3699ff;
+}
+
+.g-list li {
+    float: left;
+
+    height: .75rem;
+}
+
+.g-list li:nth-of-type(1) {
+    margin-left: .095rem;
+
+}
+
+.g-list li:nth-of-type(2) {
+    margin-left: .205rem;
+
+}
+
+.g-list li:nth-of-type(3) {
+    margin-left: .205rem;
+
+}
+
+.g-list li:nth-of-type(4) {
+    margin-left: .205rem;
+
+}
+
+.g-list li:nth-of-type(5) {
+    margin-left: .205rem;
+
+}
+
+.gedan-a {
+    width: 100%;
+    height: 0.015rem;
+    background-color: #e8e8e8;
+    margin-top: .155rem;
+}
+
+/*精选歌单*/
+.j-text {
+    overflow: hidden;
+}
+
+.j-text span {
+
+}
+
+.j-text span:nth-of-type(1) {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.20rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.432rem;
+    letter-spacing: -0.014rem;
+    color: #333333;
+}
+
+.j-text span:nth-of-type(2) {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.16rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.432rem;
+    letter-spacing: -0.01rem;
+    color: #ec32a5;
+    float: right;
+    margin-right: .31rem;
+}
+
+.j-text span:nth-of-type(3) {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.16rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.432rem;
+    letter-spacing: -0.01rem;
+    color: #333333;
+    float: right;
+    margin-right: .31rem;
+}
+
+.j-text p {
+    width: 0.24rem;
+    height: 0.02rem;
+    background-color: #ec32a5;
+    margin-left: .04rem;
+    margin-top: -.08rem;
+
+}
+
+.j-text .a {
+    display: none;
+}
+
+.j-pic {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.j-pic li {
+    float: left;
+}
+
+.j-pic li img {
+    width: .9rem;
+    height: .85rem;
+}
+
+.j-pic li p:nth-of-type(1) {
+
+    font-family: PingFang-SC-Medium;
+    font-size: 0.10rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: -0.01rem;
+    color: #333333;
+}
+
+.j-pic li p:nth-of-type(2) {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.09rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.432rem;
+    letter-spacing: -0.007rem;
+    color: #999999;
+
+}
+
+.j-pic .pic2 {
+    position: relative;
+    top: .16rem;
+}
+
+.j-pic .pic3 {
+    padding-top: .16rem;
+}
+
+.j-pic li:nth-of-type(2) {
+    margin-left: .25rem;
+}
+
+.j-pic li:nth-of-type(3) {
+    margin-left: .236rem;
+}
+
+.j-pic li:nth-of-type(5) {
+    margin-left: .25rem;
+}
+
+.j-pic li:nth-of-type(6) {
+    margin-left: .236rem;
+}
+
+
+/*底部*/
+
+.btom {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: .2rem;
+    height: .5rem;
+    width: 100%;
+    background: url("../img/index/bcd-color@2x.png") no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.botm_icon {
+    position: relative;
+    font-size: .1rem;
+    width: 1.8rem;
+}
+
+.botm_icon img {
+    margin-top: .1rem;
+    margin-left: .2rem;
+    height: .35rem;
+}
+
+.botm_icon .song {
+    position: absolute;
+    top: .12rem;
+    left: .65rem;
+}
+
+.botm_icon .songs {
+    position: absolute;
+    top: .28rem;
+    left: .65rem;
+}
+
+.icon_ {
+    margin-right: .16rem;
+}
+
+.icon_ img {
+    height: .22rem;
+}
+
+.stop {
+    padding-right: .08rem;
+}
+
+.play {
+    height: .23rem;
+    width: .22rem;
+    display: none;
+    margin-right: .1rem;
+}
+
+/*侧边栏*/
+/*遮罩层*/
+.box {
+    position: relative;
+}
+
+.in1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    /*background-color: #cccccc;*/
+    /*opacity: 0.6;*/
+    display: none;
+}
+
+.in-tou {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 35%;
+    margin-top: .53rem;
+}
+
+.in-list {
+    width: 82%;
+    height: 101%;
+    background: white;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    display: none;
+}
+
+.tou-text {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.15rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.tou-text img {
+    width: 0.385rem;
+    height: 0.15rem;
+}
+
+.tou-s {
+    width: 100%;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.23rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-top: .205rem;
+}
+
+.tou-s span:nth-of-type(1) {
+    margin-left: .3rem;
+}
+
+.tou-s span:nth-of-type(2) {
+    margin-left: .62rem;
+}
+
+.tou-s span:nth-of-type(3) {
+    margin-left: .45rem;
+}
+
+.tou-z {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #666666;
+
+}
+
+.tou-z span:nth-of-type(1) {
+    margin-left: .3rem;
+}
+
+.tou-z span:nth-of-type(2) {
+    margin-left: .7rem;
+}
+
+.tou-z span:nth-of-type(3) {
+    margin-left: .58rem;
+}
+
+.tou-b {
+    width: 100%;
+    height: 0.01rem;
+    background-color: #e8e8e8;
+    margin-top: .14rem;
+}
+
+.cb-list {
+    margin-top: .12rem;
+
+}
+
+.cb-list p {
+    margin-top: .15rem;
+    height: .2rem;
+
+}
+
+.cb-list img {
+    width: 0.19rem;
+    height: 0.17rem;
+    margin-left: .14rem;
+
+
+}
+
+.cb-list span {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.13rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-left: .13rem;
+    position: relative;
+    top: -.04rem;
+
+}
+
+.cb-list-a {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.10rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #b4b4b4;
+    margin-left: .1rem;
+}
+
+.cb-list1 {
+    margin-top: .12rem;
+
+}
+
+.cb-list1 p {
+    margin-top: .15rem;
+    height: .2rem;
+
+}
+
+.cb-list1 img {
+    width: 0.19rem;
+    height: 0.19rem;
+    margin-left: .14rem;
+
+
+}
+
+.cb-list1 span {
+    font-family: PingFang-SC-Medium;
+    font-size: 0.13rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    margin-left: .13rem;
+    position: relative;
+    top: -.04rem;
+
+}
+
+.cb-btu img:nth-of-type(1) {
+    width: 0.21rem;
+    height: 0.21rem;
+    margin-left: .3rem;
+    margin-top: .3rem;
+}
+
+.cb-btu img:nth-of-type(2) {
+    width: 0.21rem;
+    height: 0.21rem;
+    margin-left: .83rem;
+}
+
+.btu-text {
+    margin-left: .11rem;
+    position: relative;
+    top: -.05rem
+}

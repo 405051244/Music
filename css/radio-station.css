@@ -1,0 +1,271 @@
+.top{
+    width: 7.5rem;
+    height: 1.29rem;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #8d3cde 46%,
+    #ec32a5 100%);
+    overflow: hidden;
+}
+.top ul{
+    display: flex;
+}
+.fanhui{
+    width: 0.3rem;
+    height: 0.39rem;
+}
+.sousuo{
+    width: 0.35rem;
+    height: 0.4rem;
+}
+.top ul li:nth-of-type(1){
+    width: 0.3rem;
+    height: 0.39rem;
+    margin-left: 0.22rem;
+    margin-top: 0.6rem;
+}
+.top ul li:nth-of-type(3){
+    width: 0.35rem;
+    height: 0.4rem;
+    margin-left:2.65rem;
+    margin-top: 0.58rem;
+}
+.top ul li:nth-of-type(2){
+    /*width: 0.8rem;*/
+    /*height: 0.34rem;*/
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    margin-left: 3.02rem;
+    margin-top: 0.65rem;
+}
+.center-test01{
+    overflow: hidden;
+}
+.center-test01 ul{
+    margin-top: 0.25rem;
+    overflow: hidden;
+}
+.center-test01 ul li:first-of-type{
+    float: left;
+    margin-left: 1.12rem;
+}
+.center-test01 ul li:last-of-type{
+    float: right;
+    margin-right:0.98rem;
+}
+.center-test01 ul li{
+    font-size: 0.31rem;
+    /*line-height: 0.288rem;*/
+    /*letter-spacing: 0rem;*/
+    color: #000000;
+}
+.center-test02>p{
+    font-size: 0.36rem;
+    line-height: 0.288rem;
+    color: #000000;
+    margin-top: 0.44rem;
+    margin-left: 0.34rem;
+}
+.center-test03 ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.33rem;
+    margin-left: 0.1rem;
+}
+.center-test03 ul li{
+    float: left;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.288rem;
+    letter-spacing: 0rem;
+    color: #666666;
+}
+.radio-bg{
+    overflow: hidden;
+}
+.radio-bg ul {
+    width: 7.5rem;
+    height: 6.67rem;
+    padding-left: .5rem;
+    margin-top: 0.72rem;
+
+}
+.radio-bg ul li:nth-of-type(1){
+    float: left;
+     width: 2.4rem;
+     height: 4.32rem;
+    background-image: url("../img/radio-station/5@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.radio-bg ul li:nth-of-type(2){
+    float: left;
+    width: 2.41rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2rem;
+    margin-left: 0.32rem;
+    background-image: url("../img/radio-station/6@2x.png");
+}
+.radio-bg ul li:nth-of-type(3){
+  float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.41rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    background-image: url("../img/radio-station/7@2x.png");
+
+}
+.radio-bg ul li:nth-of-type(4){
+    float: left;
+    width: 2.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2rem;
+    margin-top: 0.33rem;
+    margin-left: 0.32rem;
+    background-image: url("../img/radio-station/8@2x.png");
+}
+.radio-bg ul li:nth-of-type(5){
+     float: right;
+     width: 1.41rem;
+     height: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.33rem;
+    margin-right: 0.5rem;
+    background-image: url("../img/radio-station/9@2x.png");
+
+ }
+.radio-bg ul li:nth-of-type(6){
+    float: left;
+    width: 2.4rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.32rem;
+    background-image: url("../img/radio-station/10@2x.png");
+    /*margin-left: 0.32rem;*/
+}
+.radio-bg ul li:nth-of-type(7){
+    float: left;
+    width: 2.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2rem;
+    margin-top: 0.32rem;
+    margin-left: 0.32rem;
+    background-image: url("../img/radio-station/11@2x.png");
+}
+.radio-bg ul li:nth-of-type(8){
+    float: left;
+    width: 1.41rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position:center center;*/
+    margin-top: 0.32rem;
+    margin-left: 0.47rem;
+    background-image: url("../img/radio-station/12@2x.png");
+}
+.radio-mask{
+    height: 0.53rem;
+    border-radius: 0.15rem;
+    opacity: 0.6;
+    margin-top: 3.78rem;
+    display: flex;
+}
+.radio-mask div:nth-of-type(1){
+    background-size: 100%;
+    margin-top: 0.2rem;
+    margin-left: 0.33rem;
+    width: 0.27rem;
+    height: 0.27rem;
+    /*margin-left: rem;*/
+}
+.radio-mask div img{
+    background-size: 100%;
+}
+.radio-mask div:nth-of-type(2) {
+    font-size: 0.2rem;
+    color: #333333;
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.radio-mask div:last-of-type{
+    font-size: 0.28rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+/*zzzzz*/
+.radio-mask1{
+    height: 0.53rem;
+    background-color: #fed3ff;
+    border-radius: 0.15rem;
+    opacity: 0.6;
+    margin-top: 1.5rem;
+    display: flex;
+}
+.radio-mask1 div:nth-of-type(1){
+    background-size: 100%;
+    margin-top: 0.2rem;
+    margin-left: 0.33rem;
+    width: 0.27rem;
+    height: 0.27rem;
+    /*margin-left: rem;*/
+}
+.radio-mask1 div img{
+    background-size: 100%;
+}
+.radio-mask1 div:nth-of-type(2) {
+    font-size: 0.2rem;
+    color: #333333;
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.radio-mask1 div:last-of-type{
+    font-size: 0.28rem;
+    color: #333333;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.center-test04{
+    font-size: 0.36rem;
+    line-height: 0.288rem;
+    color: #000000;
+    margin-top: 0.25rem;
+    margin-left: 0.34rem;
+}
+.radio-bottom ul{
+    overflow: hidden;
+    margin-top: 0.32rem;
+    margin-bottom: 1.2rem;
+}
+.radio-bottom ul li{
+    float: left;
+    width: 3.2rem;
+    height: 2.4rem;
+    /*border: 0.001rem black solid;*/
+    margin-left: 0.4rem;
+}
+.radio-bottom ul li:first-of-type{
+    width: 3.2rem;
+    height: 2.4rem;
+    background-image: url("../img/radio-station/13@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.radio-bottom ul li:last-of-type{
+    width: 3.2rem;
+    height: 2.4rem;
+    background-image: url("../img/radio-station/14@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

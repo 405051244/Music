@@ -1,0 +1,138 @@
+header div{
+    width: 100%;
+    height: 1.2rem;
+    font-size: .4rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    color:#ffffff;
+}
+.last{
+    width: 0.4rem;
+    height: 0.42rem;
+    margin-right: 1.6rem;
+}
+.gongxiang{
+    width: 0.42rem;
+    height: 0.48rem;
+    margin-left: 1.6rem;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #526ee1 26%,
+    #8d3cde 52%,
+    #bd37c2 80%,
+    #ec32a5 100%);
+
+}
+.geshou{
+    text-align: center;
+    font-size: 0.32rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    width: 100%;
+}
+.singer{
+    display:inline-block;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1{
+    width: 0.8rem;
+    height: 0.4rem;
+    margin-left: .16rem;
+    margin-top: .4rem;
+}
+.datu{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,0.5);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    margin-left: 10%;
+}
+.datu img{
+    width:5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.red_heart{
+    display: none;
+    width: 0.8rem;
+    height: 0.74rem;
+}
+.daohang{
+    margin-top: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.daohang li{
+    float: left;
+}
+.daohang>li>img{
+    width: 0.6rem;
+    height: 0.54rem;
+}
+.btn{
+color:#ffffff;
+    width: 5rem;
+    position: relative;
+    margin: .5rem 1.2rem ;
+    top:0;
+    left:0;
+}
+.bar{
+    width: 5rem;
+    height: .08rem;
+    background-color: chartreuse;
+    position: absolute;
+    top:0;
+    left:0
+}
+.now{
+    width: 1rem;
+    height: .08rem;
+    background-color: #ffd333;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.yuan {
+    width: .16rem;
+    height: .16rem;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top:-.06rem;
+    left:0;
+}
+.btn p{
+    position: absolute;
+    top:-.12rem;
+    left:-.8rem;
+}
+.btn span{
+    position: absolute;
+    top:-.12rem;
+    right:-.9rem;
+}
+.daohang2{
+    margin-top: 1.2rem;
+}

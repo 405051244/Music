@@ -1,0 +1,35 @@
+
+html,body{
+    background-size: 100px;
+}
+.box{
+    width:7.5rem;
+    height:13.34rem;
+    background-image: url("../img/lead/lead2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+    padding-top: 6.21rem;
+}
+ul li:first-of-type{
+    float: right;
+}
+ul li:last-of-type{
+    float: left;
+}
+.txt{
+    width: 5.9rem;
+    height: 0.91rem;
+    font-family: BigYoungMediumGB2.0;
+    font-size: 0.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.57rem;
+    letter-spacing: 0rem;
+    color: #f6f6f6;
+    margin-left: 1.12rem;
+    margin-top: 3.15rem;
+}
+

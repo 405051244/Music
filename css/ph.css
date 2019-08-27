@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    height: 1.2rem;
+    background: url("../img/bcd-color@2x.png") no-repeat;
+    background-size:cover ;
+    color:#ffffff;
+    font-size: .4rem;
+    position: relative;
+}
+header img{
+    width: .38rem;
+    height: .4rem;
+    position: absolute;
+    left:.64rem;
+    bottom:.36rem;
+}
+    header p{
+        position: absolute;
+        bottom:.36rem;
+        left:3.4rem;
+    }
+    .dianfeng{
+        margin-top: .12rem;
+        margin-bottom: 1.2rem;
+    }
+    .dianfeng p{
+        font-size: .36rem;
+        font-weight: bold;
+        text-align: center;
+    }
+.dianfeng img{
+    width: 2.24rem;
+    height: 2.24rem;
+
+}
+.dianfeng_top{
+    font-size: .28rem;
+    margin-top: .28rem;
+    margin-left: .44rem;
+    position: relative;
+}
+.dianfeng_top ul{
+    position: absolute;
+    top:-.16rem;
+    left:35%;
+}
+.dianfeng_top ul>li{
+    margin-top: .34rem;
+}
+

@@ -1,0 +1,50 @@
+.btom{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: .4rem;
+    height: 1rem;
+    width: 100%;
+    background: url("../img/nearby/bg1.png") no-repeat;
+    background-size:cover ;
+    color:white;
+    padding-bottom: .1rem;
+}
+.botm_icon{
+    position: relative;
+    font-size: .2rem;
+    width: 3.6rem;
+}
+.botm_icon img{
+    margin-top:.2rem ;
+    margin-left: .4rem;
+    height:.8rem ;
+    width: .8rem;
+}
+.botm_icon .songss{
+    position: absolute;
+    top:.24rem ;
+    left: 1.3rem;
+}
+.botm_icon .songsss{
+    position: absolute;
+    top:.56rem ;
+    left: 1.3rem;
+}
+.icon_{
+    margin-right: .32rem;
+}
+.icon_ img{
+    height: .44rem;
+}
+.stop{
+    padding-right:.16rem;
+}
+.play{
+    height: .46rem;
+    width: .44rem;
+    display: none;
+    margin-right: .2rem;
+}

@@ -1,0 +1,241 @@
+header div{
+    width: 100%;
+    height: 1.2rem;
+    font-size: .4rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    color:#ffffff;
+}
+.last{
+    width: 0.4rem;
+    height: 0.42rem;
+    margin-right: 1.6rem;
+}
+.gongxiang{
+    width: 0.46rem;
+    height: 0.48rem;
+    margin-left: .8rem;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #526ee1 26%,
+    #8d3cde 52%,
+    #bd37c2 80%,
+    #ec32a5 100%);
+
+}
+.top{
+    margin-top: .2rem;
+    display: flex;
+    color: white;
+}
+.top_left{
+    margin-left: .5rem;
+    background: url("../img/zhuanji/11@2x.png") no-repeat;
+    width: 2rem;
+    height: 2.22rem;
+    background-size: 2rem 2rem;
+    position: relative;
+}
+.icon_left{
+    position: absolute;
+    bottom: .15rem;
+    text-align: center;
+}
+.icon_left img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.icon_left span{
+    position: absolute;
+    top:.16rem;
+    left: .4rem;
+    font-size: .2rem;
+    display: inline-block;
+    width: .9rem;
+}
+.icon_right img{
+    position: absolute;
+    bottom: .1rem;
+    right:0;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.top_right{
+    margin-left: .3rem;
+    width:4.2rem;
+    height: 2.2rem;
+    position: relative;
+}
+.top_right_tex{
+    width: 4.8rem;
+    height: 0.76rem;
+    font-size: 0.3rem;
+   margin-top: -.1rem;
+    padding-bottom: .1rem;
+}
+.time{
+    font-size: 0.2rem;
+    font-weight: lighter;
+    height: 0.3rem;
+}
+.time_tex{
+    font-size: 0.2rem;
+    font-weight: lighter;
+    width: 3.8rem;
+}
+.top_right img{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.like{
+    color:#ffffff;
+    width: 4rem;
+    height: .4rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.24rem;
+    margin-top: .2rem;
+    margin-left: .7rem;
+    font-weight: lighter;
+}
+.like span{
+    width: 1.2rem;
+    height: 0.44rem;
+    position: relative;
+}
+.like img{
+    position: absolute;
+    width: 0.44rem;
+    height: 0.44rem;
+    left: -.1rem;
+    bottom: .04rem;
+}
+.zuixin{
+    margin-top: .2rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.28rem;
+    color: #fdfdfd;
+}
+.yishou{
+    font-size: 0.18rem;
+    width: 1.6rem;
+    position: relative;
+    text-align: center;
+}
+.yishou img{
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    right: 0;
+    top:-.1rem;
+}
+.zhuanjia{
+    margin-top: .22rem;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    padding-top: .3rem;
+}
+.playall{
+    font-size: 0.28rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+.playall img{
+    width: 0.44rem;
+    height: 0.44rem;
+    position: absolute;
+    top:0;
+    left: -.4rem;
+}
+.playALL{
+position: relative;
+}
+.shoucang{
+    font-size: 0.22rem;
+    color:white;
+    width: 1.89rem;
+    height: 0.45rem;
+    line-height: .45rem;
+    text-align: center;
+    background-color:#ec32a5 ;
+    border-radius: 0.225rem
+}
+.shoucang1{
+    font-size: 0.22rem;
+    color: black;
+    width: 1.89rem;
+    height: 0.45rem;
+    line-height: .45rem;
+    text-align: center;
+    background-color:#cccccc ;
+   display: none;
+    border-radius: 0.225rem
+}
+.tu{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+.pic{
+    width: 2rem;
+    height: 1.6rem;
+    background: url("../img/zhuanji/11@2x.png")no-repeat;
+    background-size: cover;
+    margin: .32rem .23rem .23rem .32rem;
+}
+.zi{
+    font-size: 0.28rem;
+    margin-right: .17rem;
+}
+.icon{
+    position: absolute;
+    top:.9rem;
+    right:.1rem;
+}
+.icon img{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-right: .2rem;
+}
+.pic1{
+    width: 2rem;
+    height: 1.6rem;
+    background: url("../img/zhuanji/15@2x.png")no-repeat;
+    background-size: cover;
+    margin: .32rem .23rem .23rem .32rem;
+}
+.pic2{
+    width: 2rem;
+    height: 1.6rem;
+    background: url("../img/zhuanji/16@2x.png")no-repeat;
+    background-size: cover;
+    margin: .32rem .23rem .23rem .32rem;
+}
+.pic3{
+    width: 2rem;
+    height: 1.6rem;
+    background: url("../img/zhuanji/17@2x.png")no-repeat;
+    background-size: cover;
+    margin: .32rem .23rem .23rem .32rem;
+}

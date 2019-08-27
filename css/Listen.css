@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(90deg,
+    #169fe3 0%,
+    #526ee1 26%,
+    #8d3cde 52%,
+    #bd37c2 80%,
+    #ec32a5 100%);
+}
+
+.ting-box {
+    width: 100%;
+    /*height: 13.34rem;*/
+}
+
+
+.hea li {
+    float: left;
+}
+
+.hea {
+    width: 100%;
+    position: relative;
+    height: .6rem;
+}
+
+.icon1 {
+    width: 0.24rem;
+    height: 0.2rem;
+    margin-left: .16rem;
+    margin-top: .23rem;
+}
+
+.icon2 {
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: .2rem;
+    margin-left: .28rem;
+
+}
+
+
+.hea li:nth-of-type(2) {
+    margin-top: .2rem;
+    margin-left: 1rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+
+.hea li:nth-of-type(3) {
+    margin-top: .04rem;
+    margin-left: .5rem;
+}
+
+.ting-text {
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.14rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    margin-top: .2rem;
+
+}
+
+.ting-text span:nth-of-type(1) {
+    margin-left: .6rem;
+
+}
+
+.ting-text span:nth-of-type(2) {
+    margin-left: 1rem;
+
+}
+
+.ting-out {
+    width: 2rem;
+    height: 2rem;
+    margin-top: .55rem;
+    margin-left: .6rem;
+    background: rgba(255, 255, 255, .55);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ting-in {
+    background: rgba(255, 255, 255, .7);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: .24rem;
+
+}
+
+.ting-in img {
+    margin-top: .24rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.ting-btext {
+    text-align: center;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.14rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    margin-top: .61rem;
+    line-height: .34rem;
+}
+
+.active {
+    border-bottom: red .02rem solid;
+    padding-bottom: .1rem;
+    color: red;
+}
+
+/*.ting-t1 {*/
+    /*border-bottom: red .02rem solid;*/
+    /*padding-bottom: .1rem;*/
+    /*color: red;*/
+/*}*/
+
+
+
+
