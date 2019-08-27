@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registered.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+<div class="mask"></div>
+<div class="top">
+    <div>
+    <img src="img/login&register/vector1.png" class="fanhui">
+    </div>
+    <p>帮助</p>
+</div>
+<div class="center">
+    <img src="img/login&register/vector.png">
+</div>
+<div class="center_input1">
+    <input type="text" placeholder="请输入手机号">
+    <div class="center_xian"></div>
+</div>
+<div class="center_input2">
+    <input type="text" placeholder="请输入验证码">
+    <!--<a id="code"  href="#">111</a>-->
+    <img src="img/login&register/getcode.png" class="yanzheng-img" >
+
+    <div class="center_xian"></div>
+</div>
+<div class="center_input3">
+    <input type="password" placeholder="请输入密码">
+    <div class="center_xian"></div>
+</div>
+<div class="bottom" onclick="location='login.html'">
+    <img src="img/login&register/vector6.png">
+</div>
+<div class="bottom-txt">
+    <p>注册即代表同意「迷音」服务条款和隐私条款</p>
+</div>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    var bot=document.querySelector('.fanhui');
+    bot.onclick=function () {
+        window.location='login.html'
+    }
+
+    function a1() {
+        $('.yanzheng-img').tap(function () {
+            $(this).hidden
+        })
+    }
+    //验证码60秒重新发送
+    var min  = 60;
+    var time;
+    $('.yanzheng-img').tap(function(){
+        clearInterval(time);
+        time = setInterval(fn,1000);
+    });
+    function fn (){
+        min = --min ;
+        if(min>0){
+            $('#code').html('（' + min + '秒）重发');
+        }else{
+            $('#code').html('发送验证码');
+        }
+    }
+</script>
+</body>
+</html>

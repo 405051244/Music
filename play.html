@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>音乐播放页面</title>
+    <link rel="stylesheet" href="css/play.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+<!--头部-->
+<header>
+    <div>
+    <img src="img/play/icon-1@2x.png" class="last" onclick="location='My.html'">
+    <span class="song">我的秘密</span>
+    <img src="img/play/icon-2@2x.png" alt="" class="gongxiang">
+    </div>
+</header>
+<!--中间部分-->
+    <div class="geshou">
+<span class="singer">G.E.M.邓紫棋</span>
+    </div>
+<div class="icon">
+    <img src="img/play/button-1@2x.png" alt="" class="icon1">
+    <img src="img/play/button-2.@2x.png" alt="" class="icon1">
+    <img src="img/play/button-3@2x.png" alt="" class="icon1">
+</div>
+<div class="datu">
+    <img src="img/play/photo-1@2x.png" alt="" class="zhuanji">
+</div>
+<!--喜欢按钮-->
+<ul class="daohang">
+    <li>
+        <img src="img/play/icon-3@2x.png" alt="" class="heart">
+        <img src="img/play/a2.png" class="red_heart">
+    </li>
+    <li>
+        <img src="img/play/icon-4@2x.png" alt="">
+    </li>
+    <li>
+        <img src="img/play/icon-5@2x.png" alt="">
+    </li>
+    <li>
+        <img src="img/play/icon-6@2x.png" alt="">
+    </li>
+</ul>
+<!--进度条-->
+<div class="btn">
+<p class="currentTime">00:00</p>
+    <div class="bar">    </div>
+    <div class="now">    </div>
+    <!--小圆点-->
+    <div class="yuan">   </div>
+<span class="totalTime">00:00</span>
+</div>
+<!--暂停播放-->
+<ul class="daohang daohang2">
+    <li>
+        <img src="img/play/icon-7@2x.png" alt="">
+    </li>
+    <li>
+        <img src="img/play/icon-8@2x.png" alt="" class="top1">
+    </li>
+    <li class="play1">
+        <img src="img/play/icon-9@2x.png" alt="" class="play2" style="display:none;">
+        <img src="img/play/a1.png" alt="" class="stop1">
+    </li>
+    <li>
+        <img src="img/play/icon-10@2x.png" alt="" class="next1" >
+    </li>
+    <li>
+        <img src="img/play/icon-11@2x.png" alt="">
+    </li>
+</ul>
+<audio></audio>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/ph.js"></script>
+<script src="js/play.js"></script>
+<script src="js/music.js"></script>
+</body>
+</html>

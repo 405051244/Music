@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>音乐搜索页面</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sousuo.css">
+
+</head>
+<body>
+<!--头部-->
+<header>
+    <img src="img/icon-1@2x.png" class="fanhui" onclick ="location='My.html'">
+    <div class="kuang">
+        <input type="text" placeholder="林俊杰  吉克隽逸" id="searchTxt">
+    </div>
+    <span class="queding"> 搜索</span>
+    <img src="img/sousuo/2@2x.png" class="fangfajing">
+</header>
+<!--中部-->
+<div class="remen">
+    <p>热门搜索</p>
+   <ul class="top">
+       <li>Taylor Swift</li>
+       <li>张杰</li>
+       <li>孙燕姿</li>
+   </ul>
+    <ul class="center">
+        <li>最美的时刻</li>
+        <li>孙楠</li>
+    </ul>
+    <ul class="bottom">
+        <li>周震南</li>
+        <li>赵振豪</li>
+    </ul>
+</div>
+<div class="listen_box">
+    <ul></ul>
+</div>
+<audio></audio>
+<p class="btt" onclick="location='Listen.html'"><img src="img/sousuo/16@2x.png" alt="">听歌识曲，小唱两句试试吧~</p>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/sousuo.js"></script>
+<!--<script src="js/music.js"></script>-->
+</body>
+</html>

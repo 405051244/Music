@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Follow</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/follow.css">
+    <link rel="stylesheet" href="css/radio-bofang.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/follow-swiper.css">
+    <!--<link rel="stylesheet" href="css/nearby.css">-->
+    <script src="js/rem.js"></script>
+</head>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/follow.js"></script>
+<body>
+<style>
+    #txt{
+        height: 0.25rem;
+        width: 0.5rem;
+    }
+    #txt-a1{
+        height: 0.25rem;
+        width: 0.5rem;
+    }
+    #txt-a2{
+        height: 0.25rem;
+        width: 0.5rem;
+    }
+
+</style>
+<div class="top">
+    <ul>
+        <li><img src="img/nearby/1@2x.png" class="fanhui" onclick="location='index.html'"></li>
+        <li>关注</li>
+        <li>附近</li>
+        <li><img src="img/nearby/3@2x.png" class="xin"></li>
+    </ul>
+</div>
+<div id="top">
+<ul class="remen">
+    <li>热门话题</li>
+    <li>更多</li>
+    <li><img src="img/follow/图标4%20拷贝@2x.png" alt="" class="qu"></li>
+</ul>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+    <ul class="swiper-slide">
+        <li>
+            <img src="img/follow/4@2x.png">
+            <p class="song">余情未了</p>
+            <p class="singer">魏新雨</p>
+        </li>
+        <li>
+            <img src="img/follow/5@2x.png" alt="">
+            <p class="song">醉千年</p>
+            <p class="singer">李袁杰</p>
+        </li>
+        <li>
+            <img src="img/follow/6@2x.png" alt="">
+            <p class="song">渡我不渡他</p>
+            <p class="singer">孤独诗人</p>
+        </li>
+    </ul>
+        </div>
+    </div>
+</div>
+<div class="nearby-mask"></div>
+<div class="nearby-center01">
+    <ul class="nearby-center01-ul">
+        <li><img src="img/nearby/11@2x.png"></li>
+        <li>Dr.ASD</li>
+    </ul>
+    <p class="nearby-center01-txt">这是我唱的《千年醉》，快来听听吧。</p>
+    <ul class="follow-img1">
+        <li><img src="img/follow/8@2x(1).png" alt=""></li>
+        <li><img src="img/follow/9@2x.png" alt=""></li>
+        <li><img src="img/follow/10@2x.png" alt=""></li>
+        <li><img src="img/follow/12@2x.png" alt=""></li>
+        <li><img src="img/follow/13@2x.png" alt=""></li>
+        <li><img src="img/follow/14@2x.png" alt=""></li>
+        <li><img src="img/follow/15@2x.png" alt=""></li>
+        <li><img src="img/follow/16@2x.png" alt=""></li>
+        <li><img src="img/follow/24@2x.png" alt=""></li>
+    </ul>
+    <div class="nearby_box">
+        <ul>
+            <li>千年醉</li>
+            <li>100人听过</li>
+            <li><div class="nearby-bg1"><div class="nearby-bg2"><img src="img/nearby/6@2x.png" ></div></div></li>
+        </ul>
+    </div>
+    <div id="nearby-ul">
+        <ul>
+            <li><img src="img/nearby/7@2x.png" onclick="add()" ></li>
+            <li><img src="img/nearby/8@2x.png"></li>
+            <li><img src="img/nearby/9@2x.png"></li>
+            <li><img src="img/nearby/10@2x.png"></li>
+        </ul>
+        <p><input type="text" id="txt" value="1"/></p>
+        <p>24</p>
+    </div>
+</div>
+<div class="nearby-mask"></div>
+<div class="nearby-center02">
+    <ul class="nearby-center02-ul">
+        <li><img src="img/nearby/11@2x.png"></li>
+        <li>Dr.ASD</li>
+        <!--  <li>1.1km</li>
+          <li><img src="img/nearby/4@2x(1).png"></li>-->
+    </ul>
+    <p class="nearby-center02-txt">这是我唱的《站着等你三千年》，快来听听吧。</p>
+    <ul class="follow-img1">
+        <li><img src="img/follow/8@2x(1).png" alt=""></li>
+
+    </ul>
+    <div class="nearby_box">
+        <ul>
+            <li>千年醉</li>
+            <li>100人听过</li>
+            <li><div class="nearby-bg3s"><div class="nearby-bg3"><img src="img/nearby/6@2x.png" ></div></div></li>
+        </ul>
+    </div>
+    <div id="nearby-ul">
+        <ul>
+            <li><img src="img/nearby/7@2x.png" onclick="adda1()" ></li>
+            <li><img src="img/nearby/8@2x.png"></li>
+            <li><img src="img/nearby/9@2x.png"></li>
+            <li><img src="img/nearby/10@2x.png"></li>
+        </ul>
+        <p><input type="text" id="txt-a1" value="1"/></p>
+        <p>24</p>
+    </div>
+</div>
+<div class="nearby-mask"></div>
+<div class="nearby-center04">
+    <ul class="nearby-center04-ul">
+        <li><img src="img/nearby/4@2x.png"></li>
+        <li>Dr.Jusmik</li>
+        <!--<li>0.1km</li>
+        <li><img src="img/nearby/4@2x(1).png"></li>-->
+    </ul>
+    <p class="nearby-center01-txt">这是我唱的《千年醉》，快来听听吧。</p>
+    <div class="nearby_box">
+        <ul>
+            <li>千年醉</li>
+            <li>100人听过</li>
+            <li><div class="nearby-bg1"><div class="nearby-bg2"><img src="img/nearby/6@2x.png" ></div></div></li>
+        </ul>
+    </div>
+    <div id="nearby-ul">
+        <ul>
+            <li><img src="img/nearby/7@2x.png" onclick="adda2()" ></li>
+            <li><img src="img/nearby/8@2x.png"></li>
+            <li><img src="img/nearby/9@2x.png"></li>
+            <li><img src="img/nearby/10@2x.png"></li>
+        </ul>
+        <p><input type="text" id="txt-a2" value="1"/></p>
+        <p>2</p>
+    </div>
+</div>
+
+<!--底部-->
+<div class="btom">
+    <div class="botm_icon" onclick="location='play.html'">
+        <img src="img/nearby/50@2x.png" alt="" class="zhuanji">
+        <p class="songss">Where IS Your Love</p>
+        <p class="songsss">横滑可以切换上下首哦</p>
+    </div>
+    <div class="icon_">
+        <img src="img/nearby/矢量智能对象@2x(1).png" alt="" class="stop">
+        <img src="img/nearby/stop.png"  class="play">
+        <img src="img/nearby/矢量智能对象@2x.png" alt="">
+    </div>
+</div>
+</body>
+<script>
+    $('.top ul li:nth-child(3)').on('tap',function () {
+        $(this).css({
+            'color':' #ec32a5'
+        })
+        window.location='nearby.html';
+    })
+</script>
+<script>
+    function add(){
+        var txt=document.getElementById("txt");
+        var a=txt.value;
+        a++;
+        txt.value=a;
+    }
+    function sub(){
+        var txt=document.getElementById("txt");
+        var a=txt.value;
+        if(a>1){
+            a--;
+            txt.value=a;
+        }else{
+            txt.value=1;
+        }
+    }
+    function adda1(){
+        var txt=document.getElementById("txt-a1");
+        var a=txt.value;
+        a++;
+        txt.value=a;
+    }
+    function sub(){
+        var txt=document.getElementById("txt-a1");
+        var a=txt.value;
+        if(a>1){
+            a--;
+            txt.value=a;
+        }else{
+            txt.value=1;
+        }
+    }
+    function adda2(){
+        var txt=document.getElementById("txt-a2");
+        var a=txt.value;
+        a++;
+        txt.value=a;
+    }
+    function sub(){
+        var txt=document.getElementById("txt-a2");
+        var a=txt.value;
+        if(a>1){
+            a--;
+            txt.value=a;
+        }else{
+            txt.value=1;
+        }
+    }
+
+    (function(window,document,undefined){
+        var hearts = [];
+        window.requestAnimationFrame = (function(){
+            return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.oRequestAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function (callback){
+                    setTimeout(callback,10/60);
+                }
+        })();
+        init();
+        function init(){
+            css(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+            attachEvent();
+            gameloop();
+        }
+        function gameloop(){
+            for(var i=0;i<hearts.length;i++){
+                if(hearts[i].alpha <=0){
+                    document.body.removeChild(hearts[i].el);
+                    hearts.splice(i,1);
+                    continue;
+                }
+                hearts[i].y--;
+                hearts[i].scale += 0.004;
+                hearts[i].alpha -= 0.013;
+                hearts[i].el.style.cssText = "left:"+hearts[i].x+"px;top:"+hearts[i].y+"px;opacity:"+hearts[i].alpha+";transform:scale("+hearts[i].scale+","+hearts[i].scale+") rotate(45deg);background:"+hearts[i].color;
+            }
+            requestAnimationFrame(gameloop);
+        }
+        function attachEvent(){
+            var old = typeof window.onclick==="function" && window.onclick;
+            window.onclick = function(event){
+                old && old();
+                createHeart(event);
+            }
+        }
+        function createHeart(event){
+            var d = document.createElement("div");
+            d.className = "heart";
+            hearts.push({
+                el : d,
+                x : event.clientX - 5,
+                y : event.clientY - 5,
+                scale : 1,
+                alpha : 1,
+                color : randomColor()
+            });
+            document.body.appendChild(d);
+        }
+        function css(css){
+            var style = document.createElement("style");
+            style.type="text/css";
+            try{
+                style.appendChild(document.createTextNode(css));
+            }catch(ex){
+                style.styleSheet.cssText = css;
+            }
+            document.getElementsByTagName('head')[0].appendChild(style);
+        }
+        function randomColor(){
+            return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
+        }
+    })(window,document);
+
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        speed : 1000,
+        autoplay : {
+            delay : 1000,
+            centeredSlides: true,
+            loopAdditionalSlides: 1000,
+
+        }
+    });
+
+
+
+    var play=document.querySelector('.play');
+    var stop=document.querySelector('.stop');
+    var zhuanji=document.querySelector('.zhuanji');
+
+    var rotateDeg=0;
+    var timer=null;
+
+
+
+    $(stop).on('click',function () {
+        $(play).css('display','inline-block');
+        $(stop).css('display','none');
+        clearInterval(timer);
+        timer=setInterval(function () {
+            rotateDeg++;
+            zhuanji.style.transform='rotate('+rotateDeg+'deg)';
+        },30);
+    });
+    $(play).on('click',function () {
+        $(play).css('display','none');
+        $(stop).css('display','inline-block');
+        clearInterval(timer);
+    });
+
+
+</script>
+</html>
